@@ -1,0 +1,2 @@
+Media: 242.32
+Tiempo de ejecución: 0.0000 segundos
