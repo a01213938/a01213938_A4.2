@@ -1,3 +1,4 @@
+# pylint: disable=invalid-name
 """
 Módulo para calcular estadísticas descriptivas.
 Nombre: Jorge Muñoz
@@ -44,9 +45,7 @@ def main():
 
     # Realizar cálculos aquí (Median, Mode, etc. con algoritmos básicos)
     mean = calculate_mean(data)
-    
     elapsed_time = time.time() - start_time
-    
     # Formatear resultados
     results = (
         f"Media: {mean}\n"
